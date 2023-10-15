@@ -1,4 +1,9 @@
-/*This is a comment Aries*/
+/*This is a comment Taurus*/
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Prata&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/georgia');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +13,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -29,10 +35,15 @@ main section {
 
 body {
     background-color: #8ECAE6;
+    font-family: 'Roboto Serif','Prata', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #023047;
+    font-family: 'Roboto Serif','Prata',serif;
     
 }
 
@@ -45,6 +56,10 @@ nav a:hover{
     background-color: #8ECAE6;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -54,15 +69,21 @@ nav a:hover{
 
 .msg{
     background-color: #023047;
+    padding: 35px;
 }
 
 footer{
     background-color: #023047;
     color: #E4C067;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: black;
+    font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;
+    font-size:2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -75,6 +96,8 @@ h4 {
 
 .msg p{
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -90,6 +113,7 @@ footer a:hover {
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -101,6 +125,44 @@ footer p a:hover{
     text-decoration: underline;
 }
 #hero-box{
-    text-align: center;
+    
     max-width: 100%;
 }
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin: 10px;
+}
+
