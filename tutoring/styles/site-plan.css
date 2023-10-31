@@ -2,10 +2,10 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
-/*THIS IS A COMMENT C*/
+/*THIS IS A COMMENT D*/
 
   /*@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&family=Noto+Serif+Ottoman+Siyaq&family=PT+Serif&display=swap');*/
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swapLinks to an external site.');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap');
 
 
 :root {
