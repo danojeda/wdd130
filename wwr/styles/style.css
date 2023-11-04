@@ -91,7 +91,8 @@ footer{
 }
 
 .home-title{
-    color: black;
+    /*color: black;*/
+    color:#FB8500;
     font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;
     font-size:2em;
     margin-top: 10px;
@@ -117,7 +118,7 @@ footer a {
 }
 
 footer a:hover {
-    color: black;
+    color: #8ECAE6;
 }
 .logo{
     width: 80px;
@@ -261,7 +262,8 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+       /* color: #6f7364;*/
+       color:#FB8500;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
