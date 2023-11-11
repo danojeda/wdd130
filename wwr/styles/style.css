@@ -1,4 +1,4 @@
-/*This is a comment Gemini*/
+/*This is a comment Cancer*/
 
  
  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Prata&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
@@ -33,6 +33,10 @@ main section {
     background-color: #E4C067;
     grid-column:1/11;
     grid-row: 4/9;
+}
+
+#background-faq{
+    background-color: #E4C067;
 }
 
 body {
