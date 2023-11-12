@@ -1,4 +1,4 @@
-/*This is a comment Cancer*/
+/*This is a comment: Leo*/
 
  
  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Prata&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
@@ -30,16 +30,19 @@ main section {
 
 #background{
     height: 725px;
-    background-color: #E4C067;
+    background-color: #FFE299;
     grid-column:1/11;
     grid-row: 4/9;
 }
 
 #background-faq{
-    background-color: #E4C067;
+    background-color: #E0A100;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px #6f7364;;
 }
 
 body {
+    /*background-color: #BCE0F0;*/
     background-color: #8ECAE6;
     font-family: 'Roboto Serif','Prata', serif;
     font-size: 22px;
@@ -102,6 +105,16 @@ footer{
     margin-top: 10px;
 }
 
+
+.faq-title{
+    /*color: black;*/
+    color: #E07800;
+    font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;
+    font-size:2em;
+    margin-top: 75px;
+}
+
+
 h4 {
     color: black;
 }
@@ -159,6 +172,8 @@ h2{
     justify-self: center;
     align-self:center;
 }
+
+
 
 footer .social img{
     padding-top: 15px;
@@ -241,6 +256,15 @@ nav {
 
 }
 
+.question{
+    color: #023047;
+    font-weight: bold;
+}
+
+.answer{
+    color: white;
+}
+
 /*THIS IS THE FINAL PART*/
 
 @media screen and (max-width: 900px) {
@@ -269,6 +293,8 @@ nav {
        /* color: #6f7364;*/
        color:#FB8500;
     }
+
+
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
