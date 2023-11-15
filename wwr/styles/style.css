@@ -1,8 +1,10 @@
-/*This is a comment: Leo*/
+/*This is a comment: Virgo*/
 
- 
- @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Prata&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto+Serif:opsz@8..144&display=swap'); 
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Prata&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
  @import url('https://fonts.cdnfonts.com/css/georgia');
+*/
 
 #content{
     max-width: 1600px;
@@ -44,7 +46,8 @@ main section {
 body {
     /*background-color: #BCE0F0;*/
     background-color: #8ECAE6;
-    font-family: 'Roboto Serif','Prata', serif;
+    /*font-family: 'Roboto Serif','Prata', serif;*/
+    font-family: 'Roboto Serif', serif; 
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -52,7 +55,7 @@ body {
 
 header {
     background-color: #023047;
-    font-family: 'Roboto Serif','Prata',serif;
+   /* font-family: 'Roboto Serif','Prata',serif;*/
     display:grid;
     grid-template-columns: 150px auto;
     
@@ -100,7 +103,7 @@ footer{
 .home-title{
     /*color: black;*/
     color:#FB8500;
-    font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;
+    /*font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;*/
     font-size:2em;
     margin-top: 10px;
 }
@@ -109,11 +112,14 @@ footer{
 .faq-title{
     /*color: black;*/
     color: #E07800;
-    font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;
+   /* font-family: 'Gloria Hallelujah', cursive,'Caveat', cursive;*/
     font-size:2em;
     margin-top: 75px;
 }
 
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Gloria Hallelujah', cursive; 
+} 
 
 h4 {
     color: black;
