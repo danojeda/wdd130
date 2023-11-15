@@ -1,4 +1,4 @@
-/*This is a comment: Virgo*/
+/*This is a comment: Libra*/
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto+Serif:opsz@8..144&display=swap'); 
 
@@ -40,7 +40,10 @@ main section {
 #background-faq{
     background-color: #E0A100;
     margin-top: 100px;
-    box-shadow: 5px 5px 10px #6f7364;;
+    padding: 2em;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: left;
+    
 }
 
 body {
@@ -264,11 +267,12 @@ nav {
 
 .question{
     color: #023047;
-    font-weight: bold;
+    font-weight: 700;
+    margin-top: 100px;
 }
 
 .answer{
-    color: white;
+    color: #023047;
 }
 
 /*THIS IS THE FINAL PART*/
