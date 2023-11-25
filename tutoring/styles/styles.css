@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap');
+
+#content {
+    /*max-width: 1800px;*/
+    max-width:  100%;
+    margin: 0 auto;
+    /*background-color: brown;*/
+}
+
+
+#logo_link{
+    padding-top: 5px;
+    /*justify-self: center;*/
+    /*align-self:center;*/
+    justify-self: left;
+    align-self: left;
+
+}
+
+.logo {
+   width: 80px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-img {
+    width: 100%;
+    height: 85%;
+
+}
+
+#hero-box{
+    
+    max-width: 100%;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+
+.home-grid{
+    display: grid;
+    /*grid-template-columns: repeat(10,1fr);*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #0D1321;
+    font-family: 'Noto Serif', Serif;
+}
+
+.brochure {
+    grid-column: 1/3;
+    grid-row:  1/4;
+   /* background-color: #748CAB;*/
+    text-align: left;
+    padding: 2em;
+    
+}
+
+.broch-img  {
+    grid-column: 3/5;
+    grid-row: 1/4;
+    border: 10px solid #3E5C76;
+    width: 100%;
+}
+
+header {
+    background-color: #0D1321;
+   /* font-family: 'Roboto Serif','Prata',serif;*/
+    display:grid;
+    grid-template-columns: 120px auto;
+    
+}
+
+
+nav a {
+    text-align: center;
+    color: #F0EBD8;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self:center;
+}
+
+
+.faq-title {
+    color: #F0EBD8;
+}
+
+#hero-msg, p{
+    color: #F0EBD8;
+}
+
+body {
+    /*background-color: #BCE0F0;*/
+    background-color: #1D2D44;
+    /*font-family: 'Roboto Serif','Prata', serif;*/
+    font-family: 'Roboto Serif', serif; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #0D1321;
+    color: #F0EBD8;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer a {
+    color: #F0EBD8;
+}
