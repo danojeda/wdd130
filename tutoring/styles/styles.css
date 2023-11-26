@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap');
 
 #content {
-    /*max-width: 1800px;*/
     max-width:  100%;
     margin: 0 auto;
-    /*background-color: brown;*/
 }
 
 
 #logo_link{
-    padding-top: 5px;
-    /*justify-self: center;*/
-    /*align-self:center;*/
     justify-self: left;
     align-self: left;
 
@@ -21,15 +16,18 @@
    width: 80px;
 }
 
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    height: 600px;
 }
 
 #hero-img {
     width: 100%;
-    height: 85%;
+    height: 75%;
 
 }
 
@@ -50,28 +48,43 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#front-message{
+    background-color: white;
 
 }
 
 .home-grid{
     display: grid;
-    /*grid-template-columns: repeat(10,1fr);*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     background-color: #0D1321;
     font-family: 'Noto Serif', Serif;
+    margin-bottom: 50px;  
+    margin-top: 50px;
 }
 
 .brochure {
     grid-column: 1/3;
     grid-row:  1/4;
-   /* background-color: #748CAB;*/
     text-align: left;
     padding: 2em;
     
 }
+
+.brochure p{
+    color:#F0EBD8;
+}
+
+.brochure li{
+    color:#F0EBD8;
+}
+
 
 .broch-img  {
     grid-column: 3/5;
@@ -82,12 +95,16 @@ nav {
 
 header {
     background-color: #0D1321;
-   /* font-family: 'Roboto Serif','Prata',serif;*/
+    font-family: 'Merriweather', Serif;;
     display:grid;
     grid-template-columns: 120px auto;
+    padding: 0; 
     
 }
 
+header a {
+    color: #F0EBD8;
+}
 
 nav a {
     text-align: center;
@@ -96,6 +113,10 @@ nav a {
     padding: 35px;
 }
 
+nav a:hover{
+    background-color: #748CAB;
+    color: #0D1321;
+}
 
 #logo_link{
     padding-top: 5px;
@@ -105,17 +126,18 @@ nav a {
 
 
 .faq-title {
-    color: #F0EBD8;
+    color: #0D1321;
+    font-size: 2em;
+    justify-items: center;
+    text-justify: center;
 }
 
 #hero-msg, p{
-    color: #F0EBD8;
+    color: #0D1321;
 }
 
 body {
-    /*background-color: #BCE0F0;*/
     background-color: #1D2D44;
-    /*font-family: 'Roboto Serif','Prata', serif;*/
     font-family: 'Roboto Serif', serif; 
     font-size: 22px;
     margin: 0;
@@ -126,13 +148,18 @@ footer{
     background-color: #0D1321;
     color: #F0EBD8;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display:flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
+
 footer a {
     color: #F0EBD8;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
