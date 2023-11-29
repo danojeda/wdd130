@@ -8,7 +8,7 @@
 
 #logo_link{
     justify-self: left;
-    align-self: left;
+    align-self: auto;
 
 }
 
@@ -65,7 +65,7 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     background-color: #0D1321;
-    font-family: 'Noto Serif', Serif;
+    /*font-family: 'Noto Serif', Serif;*/
     margin-bottom: 50px;  
     margin-top: 50px;
 }
@@ -107,6 +107,11 @@ header a {
     color: #F0EBD8;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', Sans-Serif
+}
+
 nav a {
     text-align: center;
     color: #F0EBD8;
@@ -130,7 +135,7 @@ nav a:hover{
     color: #0D1321;
     font-size: 2em;
     justify-items: center;
-    text-justify: center;
+    text-justify: inter-word;
 }
 
 /*
@@ -140,10 +145,11 @@ nav a:hover{
 
 body {
     background-color: #1D2D44;
-    font-family: 'Roboto Serif', serif; 
+    /*font-family: 'Roboto Serif', serif; */
     font-size: 22px;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Serif', Serif;
 }
 
 .bullet-point {
