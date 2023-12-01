@@ -12,6 +12,12 @@
   display: none;
 }
 
+.slide-title{
+  text-align: center;
+
+}
+
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -74,6 +80,8 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+
+
 
 /* Fading animation */
 .fade {
