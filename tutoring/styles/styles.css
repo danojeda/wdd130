@@ -72,45 +72,57 @@ nav {
 }
 
 
-.mercury{
+.services-offered{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    color: pink;
+    background-color: #0D1321;
+    padding: 2em;
+    
 }
 
 #image-children{
     grid-column: 1/3;
     grid-row: 1/3;
     max-width: 50%;
+    align-self: center;
 }
 
 #image-adults{
     grid-column: 3/5;
     grid-row: 3/5;
     max-width: 50%;
+    align-self: center;
 }
 
 #image-tests{
     grid-column: 1/3;
     grid-row: 5/7;
     max-width: 50%;
+    align-self: center;
 }
 
 
-#children-box{
+#children-box {
     grid-column: 3/5;
     grid-row: 1/3;
+    color: #F0EBD8;
+   
+    
 }
 
-#adult-box{
+#adult-box {
     grid-column: 1/3;
     grid-row: 3/5;
+    color: #F0EBD8;    
 }
 
-#tests-box{
+
+
+#tests-box {
     grid-column: 3/5;
     grid-row: 5/7;
+    color: #F0EBD8;    
 }
 
 .faq-grid{
